@@ -8,7 +8,7 @@ kick-command: "kick %PUNISH_TARGET% %PUNISH_REASON%" #Placeholders allowed
 ban-command: "ban %PUNISH_TARGET% %PUNISH_DURATION% %PUNISH_REASON%" #Placeholders allowed
 
 messages:
-  NetworkNamePrefix: "&3&lLucid "
+  NetworkNamePrefix: "&3&lPunishments "
   PlayerTargetIsNotOnline: "&cUsage: /punish <player> <id>" # The punishment menu only show when player is online
   NotAllowed: "&cYou don't have permission to use this command!"
   KickAlert: "%PUNISH_TARGET% &7has been punished by &c%PUNISHER% &7for &c%PUNISH_REASON%" #Placeholders allowed
