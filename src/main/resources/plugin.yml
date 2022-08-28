@@ -1,0 +1,13 @@
+name: LucidPunish
+version: '${git.commit.id.describe-short}'
+main: me.neuroweed.lucidpunish.Main
+prefix: LucidPunish
+load: STARTUP
+authors: [ neuroweed420 ]
+commands:
+  punish:
+    description: LucidPunish Command
+    aliases: [p]
+  punishmentsreasons:
+    description: Show the LucidPunish IDs
+    aliases: [pr, preasons]

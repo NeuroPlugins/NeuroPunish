@@ -1,0 +1,107 @@
+# NeuroPunish
+# Developed by @neuroweed420
+
+# Placeholders:
+# %PUNISHER% - %PUNISH_TARGET% - %PUNISH_DURATION% - %PUNISH_REASON%
+
+kick-command: "kick %PUNISH_TARGET% %PUNISH_REASON%" #Placeholders allowed
+ban-command: "ban %PUNISH_TARGET% %PUNISH_DURATION% %PUNISH_REASON%" #Placeholders allowed
+
+messages:
+  NetworkNamePrefix: "&3&lLucid "
+  PlayerTargetIsNotOnline: "&cUsage: /punish <player> <id>" # The punishment menu only show when player is online
+  NotAllowed: "&cYou don't have permission to use this command!"
+  KickAlert: "%PUNISH_TARGET% &7has been punished by &c%PUNISHER% &7for &c%PUNISH_REASON%" #Placeholders allowed
+  BanAlert: "%PUNISH_TARGET% &7has been punished by &c%PUNISHER% &7for &c%PUNISH_REASON%" #Placeholders allowed
+
+punish-id:
+  0:
+    SLOT_GUI: 0
+    PUNISH_TYPE: KICK
+    PUNISH_MATERIAL: REDSTONE
+    PUNISH_TITLE: "&cKick"
+    PUNISH_REASON: "Kick"
+  1:
+    SLOT_GUI: 1
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: FEATHER
+    PUNISH_TITLE: "&cPermaBan"
+    PUNISH_DURATION: perm
+    PUNISH_REASON: "PermaBan"
+  2:
+    SLOT_GUI: 2
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: TORCH
+    PUNISH_TITLE: "&cCamping"
+    PUNISH_DURATION: 2h
+    PUNISH_REASON: "Camping"
+  3:
+    SLOT_GUI: 3
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: STONE_SWORD
+    PUNISH_TITLE: "&cTeaming"
+    PUNISH_DURATION: 2h
+    PUNISH_REASON: "Teaming"
+  4:
+    SLOT_GUI: 4
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: PAPER
+    PUNISH_TITLE: "&cAbuse of /report"
+    PUNISH_DURATION: 2h
+    PUNISH_REASON: "Abusing"
+  5:
+    SLOT_GUI: 5
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: FISHING_ROD
+    PUNISH_TITLE: "&cStats boosting"
+    PUNISH_DURATION: 7d
+    PUNISH_REASON: "Stats boosting"
+  6:
+    SLOT_GUI: 6
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: LEATHER_BOOTS
+    PUNISH_TITLE: "&cLag switching"
+    PUNISH_DURATION: 7d
+    PUNISH_REASON: "Lag switching"
+  7:
+    SLOT_GUI: 7
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: DIAMOND_SWORD
+    PUNISH_TITLE: "&cCheating"
+    PUNISH_DURATION: 7d
+    PUNISH_REASON: "Cheating"
+  8:
+    SLOT_GUI: 8
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: WEB
+    PUNISH_TITLE: "&cBan Evasion"
+    PUNISH_DURATION: 30d
+    PUNISH_REASON: "Ban Evasion"
+  9:
+    SLOT_GUI: 9
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: SHEARS
+    PUNISH_TITLE: "&cExploiting Bugs"
+    PUNISH_DURATION: 30d
+    PUNISH_REASON: "Exploiting Bugs"
+  10:
+    SLOT_GUI: 10
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: ENDER_PEARL
+    PUNISH_TITLE: "&cAdvertising Servers"
+    PUNISH_DURATION: 30d
+    PUNISH_REASON: "Advertising Servers"
+  11:
+    SLOT_GUI: 11
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: WATER_BUCKET
+    PUNISH_TITLE: "&cInappropriate Username (Offensive Slurs)"
+    PUNISH_DURATION: 30d
+    PUNISH_REASON: "Inappropriate Username"
+  12:
+    SLOT_GUI: 12
+    PUNISH_TYPE: BAN
+    PUNISH_MATERIAL: MILK_BUCKET
+    PUNISH_TITLE: "&cInappropriate Skin (Perm ban till change)"
+    PUNISH_DURATION: 30d
+    PUNISH_REASON: "Inappropriate Skin"
